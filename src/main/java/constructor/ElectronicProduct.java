@@ -1,7 +1,7 @@
 package constructor;
 public class ElectronicProduct extends Product {
 
-    private String manufacturer;
+    private final String manufacturer;
     public ElectronicProduct(String productName, String manufacturer) {
         super(productName);
         this.manufacturer = manufacturer;

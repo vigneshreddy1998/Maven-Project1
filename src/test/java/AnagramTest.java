@@ -1,6 +1,8 @@
 import org.junit.Test;
-import static org.junit.Assert.*;
 import strings.Anagram;
+
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 public class AnagramTest {
 
     @Test
@@ -9,7 +11,9 @@ public class AnagramTest {
         String str2 = "Silent";
 
         // Ensure that the method correctly identifies anagrams
-        assertTrue(Anagram.areAnagrams(str1, str2));
+        Object Anagram;
+        Anagram = null;
+        assertTrue(Anagram.equals(str1));
     }
 
     @Test
